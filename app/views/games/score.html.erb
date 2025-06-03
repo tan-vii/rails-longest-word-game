@@ -1,0 +1,8 @@
+<h1>Games score</h1>
+
+<p>Your word: <%= @word %></p>
+<p>Letters grid: <%= @letters.join(' ') %></p>
+
+<p><strong><%= @message %></strong></p>
+
+<%= link_to "Try again", new_game_path %>
